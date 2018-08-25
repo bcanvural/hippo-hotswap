@@ -64,8 +64,6 @@ ENV PROJECT_BASEDIR ${CATALINA_BASE}/hippoproject
 ENV JAVA_ENABLE_DEBUG "true"
 ENV AUTO_EXPORT_ENABLED "true"
 
-#ADD DCEVM-8u181-installer-build2.jar /opt/dcevm/DCEVM-8u181-installer-build2.jar
-#RUN java -jar /opt/dcevm/DCEVM-8u181-installer-build2.jar
 RUN apt-get update && apt-get install openjdk-8-jre-dcevm
 ADD hotswap-agent-1.3.0.jar /opt/hotswap-agent/
 ENV HOTSWAP_JAR_LOCATION /opt/hotswap-agent/hotswap-agent-1.3.0.jar
