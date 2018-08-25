@@ -47,7 +47,7 @@ public class NewsDocument extends HippoDocument {
      */
     @HippoEssentialsGenerated(internalName = "hippohotswap:title")
     public String getTitle() {
-        return getProperty(TITLE) + " and some";
+        return getProperty(TITLE);
     }
 
     /**

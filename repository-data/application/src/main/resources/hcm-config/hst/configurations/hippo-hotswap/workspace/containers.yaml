@@ -35,6 +35,7 @@ definitions:
           jcr:primaryType: hst:containercomponent
           hst:label: News List Main
           hst:xtype: hst.vbox
+          hst:lastmodified: 2018-08-25T15:47:48.679Z
       /newspage:
         jcr:primaryType: hst:containercomponentfolder
         /main:

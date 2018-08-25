@@ -18,7 +18,7 @@ definitions:
       /news:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/newslist
-        hst:pagetitle: List of News Items
+        hst:pagetitle: List of News Items and the King of the Andals
         hst:relativecontentpath: news
         /_any_.html:
           jcr:primaryType: hst:sitemapitem

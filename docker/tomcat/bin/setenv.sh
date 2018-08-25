@@ -36,7 +36,8 @@ L4J_OPTS="-Dlog4j.configurationFile=file://${CATALINA_BASE}/conf/log4j2.xml -DLo
 #------------------------------------------------------------------------------
 
 # JVM heap size options, depending on the variables set by Dockerfile.
-JVM_OPTS="-server -Xms${MIN_HEAP_SIZE} -Xmx${MAX_HEAP_SIZE} -XX:+UseG1GC -Djava.util.Arrays.useLegacyMergeSort=true"
+#JVM_OPTS="-server -Xms${MIN_HEAP_SIZE} -Xmx${MAX_HEAP_SIZE} -XX:+UseG1GC -Djava.util.Arrays.useLegacyMergeSort=true"
+JVM_OPTS="-server -Xms${MIN_HEAP_SIZE} -Xmx${MAX_HEAP_SIZE} -XX:+UseSerialGC -Djava.util.Arrays.useLegacyMergeSort=true"
 
 #------------------------------------------------------------------------------
 
@@ -66,9 +67,11 @@ if [ x"${JAVA_ENABLE_DEBUG}" != x ] && [ "${JAVA_ENABLE_DEBUG}" != "false" ]; th
 fi
 
 AUTO_EXPORT_OPTS="-Dproject.basedir=${PROJECT_BASEDIR} -Drepo.autoexport.enabled=${AUTO_EXPORT_ENABLED} -Drepo.autoexport.allowed=${AUTO_EXPORT_ENABLED}"
+HOTSWAP_OPTS="-XXaltjvm=dcevm -javaagent:${HOTSWAP_JAR_LOCATION}"
+
 #------------------------------------------------------------------------------
 
 # Merging all to CATALINA_OPTS which is understood by Tomcat in the end.
-CATALINA_OPTS="${JVM_OPTS} ${VGC_OPTS} ${REP_OPTS} ${DMP_OPTS} ${RMI_OPTS} ${L4J_OPTS} ${JRC_OPTS} ${AUTO_EXPORT_OPTS} ${JAVA_DEBUG_OPTS}"
+CATALINA_OPTS="${JVM_OPTS} ${VGC_OPTS} ${REP_OPTS} ${DMP_OPTS} ${RMI_OPTS} ${L4J_OPTS} ${JRC_OPTS} ${AUTO_EXPORT_OPTS} ${JAVA_DEBUG_OPTS} ${HOTSWAP_OPTS}"
 
 #------------------------------------------------------------------------------

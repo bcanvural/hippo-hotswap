@@ -1,10 +1,11 @@
 /hst:hst/hst:configurations/hippohotswap/hst:workspace/hst:containers/newslist/main/newslist:
   jcr:primaryType: hst:containeritemcomponent
-  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsNewsComponent
+  hst:componentclassname: com.bloomreach.components.FakeNewsComponent
+  hst:iconpath: images/essentials/catalog-component-icons/news-list.png
   hst:label: News List
-  hst:parameternames: [hidePastEvents, documentTypes, sortField, sortOrder, includeSubtypes,
-    showPagination, path, pageSize, documentDateField, hideFutureItems]
-  hst:parametervalues: ['on', 'hippohotswap:newsdocument', '', desc, 'off', 'on',
-    '', '10', 'hippohotswap:date', 'on']
+  hst:parameternames: [path, hideFutureItems, documentDateField, documentTypes, sortOrder,
+    sortField, pageSize, showPagination, includeSubtypes, org.hippoecm.hst.core.component.template]
+  hst:parametervalues: ['', 'on', '', 'hippohotswap:newsdocument', desc, '', '10',
+    'off', 'on', 'webfile:/freemarker/hstdefault/newslist-main-newslist.ftl']
   hst:template: newslist-main-newslist
   hst:xtype: hst.item
