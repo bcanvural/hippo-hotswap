@@ -1,0 +1,31 @@
+/content/documents/hippohotswap/test:
+  .meta:order-before: news
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 4f9a8565-0d7e-4080-a63f-e3928fdb83a4
+  /test[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: fd950fe2-432c-4f23-9132-3eafc35b7512
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-08-25T14:56:38.391Z
+    hippostdpubwf:lastModificationDate: 2018-08-25T14:56:38.391Z
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:id: fdsafdsa
+    resourcebundle:keys: []
+    resourcebundle:messages: []
+  /test[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 5b99df4f-d907-45fd-970f-b12dbc401276
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-08-25T14:56:38.391Z
+    hippostdpubwf:lastModificationDate: 2018-08-25T15:00:11.755Z
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:id: fdsafdsa
+    resourcebundle:keys: []
+    resourcebundle:messages: []

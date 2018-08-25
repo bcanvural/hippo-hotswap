@@ -1,7 +1,7 @@
 /content/gallery/hippohotswap:
   jcr:primaryType: hippogallery:stdImageGallery
   jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 3b9c916a-8175-468e-a13d-a8ace11cc5bd
   hippo:name: Hot Swap Experiment Using Docker
   hippostd:foldertype: [new-image-folder]
   hippostd:gallerytype: ['hippogallery:imageset']
-

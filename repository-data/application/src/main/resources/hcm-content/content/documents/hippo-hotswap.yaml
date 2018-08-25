@@ -1,6 +1,8 @@
 /content/documents/hippohotswap:
+  .meta:order-before: administration
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: de6894b8-ba9c-453e-b310-4f037aa5d0fc
   hippo:name: Hot Swap Experiment Using Docker
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814

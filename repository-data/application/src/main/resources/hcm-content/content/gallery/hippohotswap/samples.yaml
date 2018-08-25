@@ -1,0 +1,181 @@
+/content/gallery/hippohotswap/samples:
+  .meta:order-before: banners
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: b4a0023a-2567-4664-acbe-ed5b67bf8b0f
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /viognier-grapes-188185_640.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: beff458e-e07a-4065-8cad-8d96b67d13ec
+    /viognier-grapes-188185_640.jpg:
+      jcr:primaryType: hippogallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 89b5e917-6603-49d5-a8e2-5283afa22e76
+      hippo:availability: [live, preview]
+      hippogallery:description: Description for viognier-grapes-188185_640.jpg
+      hippogallery:filename: viognier-grapes-188185_640.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 60
+        hippogallery:width: 58
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640_thumbnail.jpg
+        jcr:lastModified: 2013-11-12T12:15:00+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 640
+        hippogallery:width: 625
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640_original.jpg
+        jcr:lastModified: 2013-11-12T12:15:00+01:00
+        jcr:mimeType: image/jpeg
+  /animal-2883_640.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 4709f797-61ae-4c36-93d4-63b5d50fc200
+    /animal-2883_640.jpg:
+      jcr:primaryType: hippogallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: afa53448-7687-46fd-a982-ff5b26f3bda6
+      hippo:availability: [live, preview]
+      hippogallery:description: Description for animal-2883_640.jpg
+      hippogallery:filename: animal-2883_640.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 39
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/animal-2883_640.jpg/animal-2883_640_thumbnail.jpg
+        jcr:lastModified: 2013-11-12T12:15:00+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 426
+        hippogallery:width: 640
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/animal-2883_640.jpg/animal-2883_640_original.jpg
+        jcr:lastModified: 2013-11-12T12:15:00+01:00
+        jcr:mimeType: image/jpeg
+  /snail-193611_640.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 3c740fcf-8ec5-4f00-a713-ff96caa645c8
+    /snail-193611_640.jpg:
+      jcr:primaryType: hippogallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 792d3664-df77-4ab2-92d9-e721883d3519
+      hippo:availability: [live, preview]
+      hippogallery:description: Description for snail-193611_640.jpg
+      hippogallery:filename: snail-193611_640.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 45
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/snail-193611_640.jpg/snail-193611_640_thumbnail.jpg
+        jcr:lastModified: 2013-11-12T12:13:00+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 480
+        hippogallery:width: 640
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/snail-193611_640.jpg/snail-193611_640_original.jpg
+        jcr:lastModified: 2013-11-12T12:13:00+01:00
+        jcr:mimeType: image/jpeg
+  /blue-199261_150.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 9f32434e-84e3-4150-a6f2-d89a67be2fb1
+    /blue-199261_150.jpg:
+      jcr:primaryType: hippogallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 31c262e5-80a5-450b-b1e6-648d62107050
+      hippo:availability: [live, preview]
+      hippogallery:description: Description for blue-199261_150.jpg
+      hippogallery:filename: blue-199261_150.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 39
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/blue-199261_150.jpg/blue-199261_150_thumbnail.jpg
+        jcr:lastModified: 2013-11-12T11:15:00+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 99
+        hippogallery:width: 150
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/blue-199261_150.jpg/blue-199261_150_original.jpg
+        jcr:lastModified: 2013-11-12T11:15:00+01:00
+        jcr:mimeType: image/jpeg
+  /coffee-206142_150.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: c8f03498-56eb-46c9-83b2-cf014f2e03d7
+    /coffee-206142_150.jpg:
+      jcr:primaryType: hippogallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: de783c90-3cb3-452a-b71d-c2a1fbc0a6b9
+      hippo:availability: [live, preview]
+      hippogallery:description: Description for coffee-206142_150.jpg
+      hippogallery:filename: coffee-206142_150.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 39
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/coffee-206142_150.jpg/coffee-206142_150_thumbnail.jpg
+        jcr:lastModified: 2013-11-12T11:09:00+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 99
+        hippogallery:width: 150
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/coffee-206142_150.jpg/coffee-206142_150_original.jpg
+        jcr:lastModified: 2013-11-12T11:09:00+01:00
+        jcr:mimeType: image/jpeg
+  /pencils-199883_150.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d035387b-f9ce-49f6-bcb0-9ab6915a2d5f
+    /pencils-199883_150.jpg:
+      jcr:primaryType: hippogallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 93ccdfe3-d6f2-436f-a06b-97401fcd818f
+      hippo:availability: [live, preview]
+      hippogallery:description: Description for pencils-199883_150.jpg
+      hippogallery:filename: pencils-199883_150.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 39
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/pencils-199883_150.jpg/pencils-199883_150_thumbnail.jpg
+        jcr:lastModified: 2013-11-12T11:16:00+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 99
+        hippogallery:width: 150
+        jcr:data:
+          type: binary
+          resource: /content/gallery/hippohotswap/samples/pencils-199883_150.jpg/pencils-199883_150_original.jpg
+        jcr:lastModified: 2013-11-12T11:16:00+01:00
+        jcr:mimeType: image/jpeg

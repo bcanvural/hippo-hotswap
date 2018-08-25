@@ -1,0 +1,238 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/hippohotswap:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:author: Author
+        hippohotswap:content: Content
+        hippohotswap:date: Date
+        hippohotswap:image: Image
+        hippohotswap:introduction: Introduction
+        hippohotswap:location: Location
+        hippohotswap:source: Source
+        hippohotswap:title: Title
+        jcr:name: News Item
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:author: Auteur
+        hippohotswap:content: Inhoud
+        hippohotswap:date: Datum
+        hippohotswap:image: Afbeelding
+        hippohotswap:introduction: Introductie
+        hippohotswap:location: Locatie
+        hippohotswap:source: Bron
+        hippohotswap:title: Titel
+        jcr:name: Nieuwsbericht
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:author: Verfasser
+        hippohotswap:content: Inhalt
+        hippohotswap:date: Datum
+        hippohotswap:image: Abbildung
+        hippohotswap:introduction: Einführung
+        hippohotswap:location: Standort
+        hippohotswap:source: Quelle
+        hippohotswap:title: Titel
+        jcr:name: News
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:author: Auteur
+        hippohotswap:content: Contenu
+        hippohotswap:date: Date
+        hippohotswap:image: Image
+        hippohotswap:introduction: Introduction
+        hippohotswap:location: Lieu
+        hippohotswap:source: Source
+        hippohotswap:title: Titre
+        jcr:name: Message d'info
+    /hippo:configuration/hippo:translations/hippo:types/hippohotswap:eventsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:content: Content
+        hippohotswap:date: Start date
+        hippohotswap:enddate: End date
+        hippohotswap:image: Image
+        hippohotswap:introduction: Introduction
+        hippohotswap:location: Location
+        hippohotswap:title: Title
+        jcr:name: Event
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:content: Inhoud
+        hippohotswap:date: Startdatum
+        hippohotswap:enddate: Einddatum
+        hippohotswap:image: Afbeelding
+        hippohotswap:introduction: Introductie
+        hippohotswap:location: Locatie
+        hippohotswap:title: Titel
+        jcr:name: Evenement
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:content: Contenu
+        hippohotswap:date: Date de début
+        hippohotswap:enddate: Date de fin
+        hippohotswap:image: Image
+        hippohotswap:introduction: Introduction
+        hippohotswap:location: Lieu
+        hippohotswap:title: Titre
+        jcr:name: Événement
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:content: Inhalt
+        hippohotswap:date: Startdatum
+        hippohotswap:enddate: Enddatum
+        hippohotswap:image: Abbildung
+        hippohotswap:introduction: Einführung
+        hippohotswap:location: Standort
+        hippohotswap:title: Titel
+        jcr:name: Event
+    /hippo:configuration/hippo:translations/hippo:types/hippohotswap:blogpost:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:authors: Author(s)
+        hippohotswap:authors#hint: Link to author document(s)
+        hippohotswap:categories: Categories
+        hippohotswap:content: Content
+        hippohotswap:introduction: Introduction
+        hippohotswap:publicationdate: Publication Date
+        hippohotswap:title: Title
+        jcr:name: Blog Post
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:authors: Auteur(s)
+        hippohotswap:authors#hint: Link naar auteur document(en)
+        hippohotswap:categories: Categorieën
+        hippohotswap:content: Inhoud
+        hippohotswap:introduction: Introductie
+        hippohotswap:publicationdate: Publicatiedatum
+        hippohotswap:title: Titel
+        jcr:name: Blogpost
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:authors: Auteur(s)
+        hippohotswap:authors#hint: Lien vers le(s) document(s) de l'auteur
+        hippohotswap:categories: Catégories
+        hippohotswap:content: Contenu
+        hippohotswap:introduction: Introduction
+        hippohotswap:publicationdate: Date de publication
+        hippohotswap:title: Titre
+        jcr:name: Post blog
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:authors: Verfasser
+        hippohotswap:authors#hint: Link zu Verfasserdokument(en)
+        hippohotswap:categories: Kategorien
+        hippohotswap:content: Inhalt
+        hippohotswap:introduction: Einführung
+        hippohotswap:publicationdate: Publikationsdatum
+        hippohotswap:title: Titel
+        jcr:name: Blog-Post
+    /hippo:configuration/hippo:translations/hippo:types/hippohotswap:author:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:accounts: Accounts
+        hippohotswap:accounts#hint: External social media accounts
+        hippohotswap:content: Description
+        hippohotswap:content#hint: Information about the author
+        hippohotswap:fullname: Name
+        hippohotswap:fullname#hint: Full name
+        hippohotswap:photo: Photo
+        hippohotswap:photo#hint: Photo of the author
+        hippohotswap:role: Role
+        jcr:name: Author
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:accounts: Accounts
+        hippohotswap:accounts#hint: Externe social media accounts
+        hippohotswap:content: Beschrijving
+        hippohotswap:content#hint: Informatie over de auteur
+        hippohotswap:fullname: Naam
+        hippohotswap:fullname#hint: Volledige naam
+        hippohotswap:photo: Foto
+        hippohotswap:photo#hint: Foto van de auteur
+        hippohotswap:role: Rol
+        jcr:name: Auteur
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:accounts: Konten
+        hippohotswap:accounts#hint: Comptes médias sociaux externes
+        hippohotswap:content: Description
+        hippohotswap:content#hint: Informations sur l'auteur
+        hippohotswap:fullname: Nom
+        hippohotswap:fullname#hint: Nom complet
+        hippohotswap:photo: Photo
+        hippohotswap:photo#hint: Photo de l'auteur
+        hippohotswap:role: Rôle
+        jcr:name: Auteur
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:accounts: Comptes
+        hippohotswap:accounts#hint: Externe Konten soziale Medien
+        hippohotswap:content: Beschreibung
+        hippohotswap:content#hint: Informationen über den Verfasser
+        hippohotswap:fullname: Name
+        hippohotswap:fullname#hint: Vollständiger Name
+        hippohotswap:photo: Foto
+        hippohotswap:photo#hint: Foto des Verfassers
+        hippohotswap:role: Rolle
+        jcr:name: Verfasser
+    /hippo:configuration/hippo:translations/hippo:types/hippohotswap:account:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:link: Link
+        hippohotswap:link#hint: External link to the account
+        hippohotswap:type: Type
+        jcr:name: Account (Compound)
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:link: Link
+        hippohotswap:link#hint: Externe link naar het account
+        hippohotswap:type: Soort
+        jcr:name: Account (Compound)
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:link: Lien
+        hippohotswap:link#hint: Lien externe vers le compte
+        hippohotswap:type: Type
+        jcr:name: Compte (Compound)
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:link: Link
+        hippohotswap:link#hint: Externer Link zum Konto
+        hippohotswap:type: Art
+        jcr:name: Konto (Compound)
+    /hippo:configuration/hippo:translations/hippo:types/hippohotswap:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:content: Content
+        hippohotswap:image: Image
+        hippohotswap:link: Link
+        hippohotswap:title: Title
+        jcr:name: Banner
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:content: Inhoud
+        hippohotswap:image: Afbeelding
+        hippohotswap:link: Link
+        hippohotswap:title: Titel
+        jcr:name: Banner
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:content: Contenu
+        hippohotswap:image: Image
+        hippohotswap:link: Lien
+        hippohotswap:title: Titre
+        jcr:name: Bannière
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippohotswap:content: Inhalt
+        hippohotswap:image: Abbildung
+        hippohotswap:link: Link
+        hippohotswap:title: Titel
+        jcr:name: Banner

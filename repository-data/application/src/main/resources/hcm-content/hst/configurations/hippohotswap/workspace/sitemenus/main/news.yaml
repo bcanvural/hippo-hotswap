@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/hippohotswap/hst:workspace/hst:sitemenus/main/news:
+  .meta:order-before: events
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: news

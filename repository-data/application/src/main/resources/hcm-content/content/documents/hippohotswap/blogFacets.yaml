@@ -1,0 +1,16 @@
+/content/documents/hippohotswap/blogFacets:
+  .meta:order-before: banners
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:docbase: 8e25c3d6-dbb2-4b0b-8577-ae7f1d7262e1
+  hippofacnav:facetnodenames: [Authors, Categories, Tags, Date]
+  hippofacnav:facets: ['hippohotswap:authornames', 'hippohotswap:categories', 'hippostd:tags',
+    "hippohotswap:publicationdate$[\n                {name:'Last 7 days',resolution:'day',\
+      \ begin:-6, end:1},\n                {name:'Last month',resolution:'day', begin:-30,\
+      \ end:1},\n                {name:'Last 3 months',resolution:'day', begin:-91,\
+      \ end:1},\n                {name:'Last 6 months',resolution:'day', begin:-182,\
+      \ end:1},\n                {name:'Last year',resolution:'day', begin:-365, end:1}\n\
+      \                ]"]
+  hippofacnav:filters: ['jcr:primaryType = hippohotswap:blogpost']
+  hippofacnav:limit: 100
+  hippofacnav:sortby: ['hippohotswap:publicationdate']
+  hippofacnav:sortorder: [descending]

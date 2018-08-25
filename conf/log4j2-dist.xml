@@ -43,6 +43,7 @@
     <Logger name="org.hippoecm" level="error"/>
     <Logger name="com.onehippo" level="error"/>
     <Logger name="org.onehippo" level="error"/>
+    <Logger name="org.onehippo.cms7.autoexport" level="info"/>
 
     <!-- audit logging -->
     <Logger additivity="false" name="org.hippoecm.repository.api.Workflow" level="info">
