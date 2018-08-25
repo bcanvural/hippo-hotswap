@@ -1,0 +1,5 @@
+group: 
+  name: hippo-hotswap
+  after: hippo-cms
+project: hippo-hotswap
+module: hippo-hotswap-repository-data-webfiles

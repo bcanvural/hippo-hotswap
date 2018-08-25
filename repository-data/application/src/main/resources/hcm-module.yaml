@@ -1,0 +1,6 @@
+group: 
+  name: hippo-hotswap
+  after: hippo-cms
+project: hippo-hotswap
+module:
+  name: hippo-hotswap-repository-data-application

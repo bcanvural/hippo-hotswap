@@ -1,0 +1,7 @@
+/content/gallery/hippohotswap:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  hippo:name: Hot Swap Experiment Using Docker
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+
