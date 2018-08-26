@@ -6,11 +6,17 @@ This project contains configuration for using a dockerized tomcat server instead
  ```bash
  $ ./deploy_local_tomcat.sh
  ```
- ## Change things in site module and redeploy site to running instance
+ 
+ ## Use HotSwap Agent
+ Compile code in IDE, classes will be hot-swapped within container
+ 
+ ## Redeploy site to running instance
+ For cases where hotswap operation is not supported, repackage and redeploy site module:
+ 
  ```bash
  $ ./redeploy-site.sh
  ```
  
  ## Debugging
  
- Attach remote debugger at port 5005 (by default) or pass JAVA_DEBUG_PORT env variable in dockerfile
+ Attach remote debugger at port 8000 (by default) or pass JAVA_DEBUG_PORT env variable in dockerfile
