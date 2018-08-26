@@ -11,5 +11,10 @@
       <outputDirectory>webapps</outputDirectory>
       <destName>site.war</destName>
     </file>
+    <file>
+      <source>essentials/target/essentials.war</source>
+      <outputDirectory>webapps</outputDirectory>
+      <destName>essentials.war</destName>
+    </file>
   </files>
 </component>
