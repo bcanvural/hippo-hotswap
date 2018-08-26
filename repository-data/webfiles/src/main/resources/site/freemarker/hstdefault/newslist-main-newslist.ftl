@@ -14,6 +14,7 @@
       </#if>
       <p>${item.location?html}</p>
       <p>${item.introduction?html}</p>
+      <p><#if fake??>${fake}</#if></p>
     </article>
   </#list>
   <div class="has-new-content-button">

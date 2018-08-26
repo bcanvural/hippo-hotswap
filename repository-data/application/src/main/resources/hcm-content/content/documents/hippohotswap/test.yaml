@@ -29,3 +29,17 @@
     resourcebundle:id: fdsafdsa
     resourcebundle:keys: []
     resourcebundle:messages: []
+  /test[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 09df9367-0e7b-49de-8440-7da8d45a477e
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-08-25T14:56:38.391Z
+    hippostdpubwf:lastModificationDate: 2018-08-25T15:00:11.755Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2018-08-25T21:45:32.583Z
+    resourcebundle:id: fdsafdsa
+    resourcebundle:keys: []
+    resourcebundle:messages: []

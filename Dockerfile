@@ -59,10 +59,22 @@ RUN rm -rf ${CATALINA_BASE}/webapps/*
 ARG SETENV_SH
 COPY ${SETENV_SH} ${CATALINA_BASE}/bin/
 
+## Java debug config
+ENV JAVA_ENABLE_DEBUG "true"
+ENV JAVA_DEBUG_PORT 8000
+
+## Auto-export config
 RUN mkdir -p ${CATALINA_BASE}/hippoproject
 ENV PROJECT_BASEDIR ${CATALINA_BASE}/hippoproject
-ENV JAVA_ENABLE_DEBUG "true"
 ENV AUTO_EXPORT_ENABLED "true"
+
+## Hotswap config
+RUN apt-get update && apt-get -y install openjdk-8-jre-dcevm
+# Download hotswap agent jar
+RUN mkdir -p /opt/hotswap-agent
+RUN curl -L "https://github.com/HotswapProjects/HotswapAgent/releases/download/RELEASE-1.3.0/hotswap-agent-1.3.0.jar" \
+ -o /opt/hotswap-agent/hotswap-agent-1.3.0.jar > /dev/null
+ENV HOTSWAP_JAR_LOCATION /opt/hotswap-agent/hotswap-agent-1.3.0.jar
 
 ARG TAR_BALL
 ADD ${TAR_BALL} ${CATALINA_BASE}/

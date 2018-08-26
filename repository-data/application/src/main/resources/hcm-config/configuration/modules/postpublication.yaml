@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:modules/postpublication:
+      jcr:primaryType: hipposys:module
+      hipposys:className: com.bloomreach.PublicationPostProcessingModule
