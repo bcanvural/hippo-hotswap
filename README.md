@@ -2,6 +2,8 @@
 This project contains configuration for using a dockerized tomcat server instead 
  of OOTB cargo.run profile
  
+ -------------------------------------------------------
+ 
  ## Skip all and use hotswap in your own hippo project:
  From inside an archetype project:
  ```bash
@@ -12,6 +14,7 @@ This project contains configuration for using a dockerized tomcat server instead
  $ ./deploy_local_tomcat.sh
  ```
  
+ -------------------------------------------------------
  
  ## Build project, build docker image, run image
  ```bash
