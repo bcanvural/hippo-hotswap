@@ -7,7 +7,7 @@ This project contains configuration for using a dockerized tomcat server instead
  ## Skip all and use hotswap in your own hippo project:
  From inside an archetype project:
  ```bash
- $ docker run --mount type=bind,source=$(pwd),target=/home/myhippoproject bcanvural/hotswap-prepper:v1
+ $ docker run --rm --mount type=bind,source=$(pwd),target=/home/myhippoproject bcanvural/hotswap-prepper:v1
  ```
  Then run 
  ```bash
