@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hippohotswap/hst:components/test:
+      .meta:order-before: book
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.bloomreach.components.TestComponent
+      hst:template: test

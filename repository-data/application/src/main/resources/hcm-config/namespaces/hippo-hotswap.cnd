@@ -19,6 +19,12 @@
 [hippohotswap:blogpost] > hippohotswap:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
+[hippohotswap:bookdocument] > hippohotswap:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippohotswap:cupdocument] > hippohotswap:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
 [hippohotswap:eventsdocument] > hippohotswap:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 

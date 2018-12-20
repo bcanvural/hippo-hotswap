@@ -1,0 +1,48 @@
+/content/documents/hippohotswap/cup:
+  .meta:order-before: book
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: ff5b98e4-418d-40ef-975b-dbdd1271b3da
+  /cup[1]:
+    jcr:primaryType: hippohotswap:cupdocument
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 433a293c-35d5-4de9-9f47-a53c804c2ea8
+    hippo:availability: []
+    hippohotswap:color: red
+    hippohotswap:title: Cup Title is title
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-08-26T14:55:32.480Z
+    hippostdpubwf:lastModificationDate: 2018-08-26T17:15:56.956Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 7a145158-fe55-445a-b6c8-70868c429df7
+    hippotranslation:locale: en
+  /cup[2]:
+    jcr:primaryType: hippohotswap:cupdocument
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 3ad5c518-1dd2-43fb-b46d-53d56327bd0a
+    hippo:availability: [preview]
+    hippohotswap:color: red
+    hippohotswap:title: Cup Title is title
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-08-26T14:55:32.480Z
+    hippostdpubwf:lastModificationDate: 2018-08-26T17:16:00.015Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 7a145158-fe55-445a-b6c8-70868c429df7
+    hippotranslation:locale: en
+  /cup[3]:
+    jcr:primaryType: hippohotswap:cupdocument
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 7a3efea6-8c15-45d7-85a5-8eddaf5413c1
+    hippo:availability: [live]
+    hippohotswap:color: red
+    hippohotswap:title: Cup Title is title
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-08-26T14:55:32.480Z
+    hippostdpubwf:lastModificationDate: 2018-08-26T17:16:00.015Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2018-08-26T17:16:02.008Z
+    hippotranslation:id: 7a145158-fe55-445a-b6c8-70868c429df7
+    hippotranslation:locale: en

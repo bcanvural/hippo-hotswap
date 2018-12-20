@@ -13,6 +13,11 @@
   <description>Hot Swap Experiment Using Docker Site</description>
   <dependencies>
     <dependency>
+      <groupId>com.bloomreach</groupId>
+      <artifactId>hippohotswap-site-support</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>jsp-api</artifactId>
     </dependency>

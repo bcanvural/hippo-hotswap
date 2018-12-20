@@ -21,3 +21,5 @@ definitions:
         operation: add
         type: string
         value: [liveusers]
+    /:
+      refresh: false

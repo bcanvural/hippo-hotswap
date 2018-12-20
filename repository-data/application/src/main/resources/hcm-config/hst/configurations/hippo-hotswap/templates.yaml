@@ -29,3 +29,9 @@ definitions:
       /blog-detail:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/hstdefault/blog/blog-detail.ftl
+      /test:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hippohotswap/test.ftl
+      /book:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hippohotswap/book.ftl

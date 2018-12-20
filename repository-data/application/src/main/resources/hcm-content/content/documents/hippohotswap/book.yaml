@@ -1,0 +1,95 @@
+/content/documents/hippohotswap/book:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 0d802658-c2f5-4839-90d2-03b1a8143e13
+  /book[1]:
+    jcr:primaryType: hippohotswap:bookdocument
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 82379a58-4b03-49f5-8165-6d6b93d1e0a7
+    hippo:availability: []
+    hippohotswap:name: bookname
+    hippohotswap:title: Why Nations Fall
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-08-27T17:53:52.210Z
+    hippostdpubwf:lastModificationDate: 2018-08-27T19:27:18.070Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 057627f5-1327-4eab-ae6c-b337d431715f
+    hippotranslation:locale: en
+    /hippohotswap:image:
+      jcr:primaryType: hippogallerypicker:imagelink
+      hippo:docbase: c8f03498-56eb-46c9-83b2-cf014f2e03d7
+      hippo:facets: []
+      hippo:modes: []
+      hippo:values: []
+    /hippohotswap:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p><img src="snail-193611_640.jpg/{_document}/hippogallery:original"
+        /></p>
+      /snail-193611_640.jpg:
+        jcr:primaryType: hippo:facetselect
+        hippo:docbase: 3c740fcf-8ec5-4f00-a713-ff96caa645c8
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /book[2]:
+    jcr:primaryType: hippohotswap:bookdocument
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 4a484e9e-2b5d-4d03-9c43-ec8a4e5b899a
+    hippo:availability: [preview]
+    hippohotswap:name: bookname
+    hippohotswap:title: Why Nations Fall
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-08-27T17:53:52.210Z
+    hippostdpubwf:lastModificationDate: 2018-08-27T19:27:27.169Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 057627f5-1327-4eab-ae6c-b337d431715f
+    hippotranslation:locale: en
+    /hippohotswap:image:
+      jcr:primaryType: hippogallerypicker:imagelink
+      hippo:docbase: c8f03498-56eb-46c9-83b2-cf014f2e03d7
+      hippo:facets: []
+      hippo:modes: []
+      hippo:values: []
+    /hippohotswap:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p><img src="snail-193611_640.jpg/{_document}/hippogallery:original"
+        /></p>
+      /snail-193611_640.jpg:
+        jcr:primaryType: hippo:facetselect
+        hippo:docbase: 3c740fcf-8ec5-4f00-a713-ff96caa645c8
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /book[3]:
+    jcr:primaryType: hippohotswap:bookdocument
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 6c62f092-d994-4aa9-b656-6d20097cf210
+    hippo:availability: [live]
+    hippohotswap:name: bookname
+    hippohotswap:title: Why Nations Fall
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-08-27T17:53:52.210Z
+    hippostdpubwf:lastModificationDate: 2018-08-27T19:27:27.169Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2018-08-27T19:27:28.510Z
+    hippotranslation:id: 057627f5-1327-4eab-ae6c-b337d431715f
+    hippotranslation:locale: en
+    /hippohotswap:image:
+      jcr:primaryType: hippogallerypicker:imagelink
+      hippo:docbase: c8f03498-56eb-46c9-83b2-cf014f2e03d7
+      hippo:facets: []
+      hippo:modes: []
+      hippo:values: []
+    /hippohotswap:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p><img src="snail-193611_640.jpg/{_document}/hippogallery:original"
+        /></p>
+      /snail-193611_640.jpg:
+        jcr:primaryType: hippo:facetselect
+        hippo:docbase: 3c740fcf-8ec5-4f00-a713-ff96caa645c8
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
