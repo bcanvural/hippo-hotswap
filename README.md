@@ -1,3 +1,17 @@
+# Demo for hotswap site support module
+Run 
+```bash
+$ ./deploy_local_tomcat.sh
+```
+* Checkout localhost:8080/site/book . It's empty.
+* Go to beanwriter tool and generate beans. Now there's a bean called Bookdocument. Now compile both Bookdocument
+ and BookComponent classes (uncomment code in bookcomponent).
+* Checkout localhost:8080/site/book again. It still does not work.
+* Now go to console and check "refresh" boolean property to true on the root node. This will make the object converter to refresh.
+* Checkout localhost:8080/site/book again. Now it works.
+ 
+
+
 # Use docker for local development
 This project contains configuration for using a dockerized tomcat server instead 
  of OOTB cargo.run profile
